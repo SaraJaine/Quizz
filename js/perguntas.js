@@ -6,16 +6,17 @@ export const perguntas = [
                 afirmacao: [
                     "Você se aproxima do cachorrinho dourado. Ele abana a cauda e corre em sua direção, dando saltinhos de felicidade. Ele parece ser ativo e cheio de energia, e você sente um vínculo imediato com ele.
                     O responsável pela adoção fala sobre a personalidade do cachorrinho..",
-                    "Achou assustador pensar na velocidade na qual a tecnologia está avançando."
+                    "Com o tempo, você percebe que a vida com Thor é cheia de surpresas. Ele não apenas te fez mais ativo, mas também mais feliz. As noites são aconchegantes, e cada vez que você olha para ele, sente uma gratidão enorme por tê-lo adotado. Ele é mais que um cachorro, ele é um verdadeiro amigo.
+
+."
                 ],
                 proxima: 1,
             },
             {
                 texto: "Adotar o gatinho",
                 afirmacao: [
-                    "Você se aproxima do gatinho branco. Ele observa você com seus grandes olhos verdes, e apesar de seu comportamento tranquilo, você sente que ele está avaliando cuidadosamente sua presença.
-                    O responsável pela adoção começa a falar sobre ele..",
-                    "Pensou que IA pode ajudar em tarefas da sua vida."
+                    "Ele gosta de ficar perto das pessoas, mas também aprecia seus momentos de solidão. Ele vai ser o companheiro perfeito para quem busca algo mais calmo e tranquilo."
+"
                 ],
                 proxima: 2,
             },
