@@ -1,6 +1,7 @@
 export const perguntas = [
     {
         enunciado: "Ao chegar no evento, você se deparou com dois animais adoráveis. Um cachorrinho com pelagem dourada, os olhos brilhando de curiosidade, e um gatinho branco, com o pelo macio como algodão e um olhar misterioso. Ambos estavam olhando para você, esperando ansiosos por um dono. Qual você escolhe?",
+        alternativas: [
             {
                 texto: "Adotar o cachorro",
                 afirmacao: [
@@ -23,21 +24,23 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "Utilizar uma IA pode ser aterrorizante mesmo, e foi pensando nisso que uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: " Você acaba de chegar em casa com o cachorrinho ou o gatinho, e percebe que precisa preparar o ambiente para ele. Como você vai fazer isso?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "Criar um cantinho aconchegante com cama, brinquedos e tudo o que ele precisa .",
                 afirmacao: [
-                    "Conseguiu utilizar a IA para buscar informações úteis.",
-                    "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
-                    "Percebeu que a IA consegue explicar termos complicados de forma simplificada e isso ajudou muito suas pesquisas sobre assuntos complexos."
+                    "Você decide criar um cantinho especial para o novo amigo, com cama macia, brinquedos divertidos e um local tranquilo onde ele possa descansar. Você prepara tudo com carinho, imaginando como ele vai se sentir confortável e seguro nesse novo ambiente.
+                    Quando ele vê o cantinho, seus olhos se iluminam, e logo se acomoda, começando a brincar com os brinquedos.",
+                    "O cantinho se torna um refúgio seguro para o seu novo amigo. Ele se adapta rapidamente à rotina e, com o tempo, você começa a ver o vínculo crescendo ainda mais.
+                    Você sabe que fez a escolha certa, ao dar a ele um lugar especial para chamar de seu.",
+                    "seu bichinho amou o novo cantinho, agora se sente bem mais seguro."
                 ],
                 proxima: 3,
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Liberar a casa toda para ele explorar à vontade. Afinal, ele vai se sentir mais livre assim!.",
                 afirmacao: [
-                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
+                    "O cantinho se torna um refúgio seguro para o seu novo amigo. Ele se adapta rapidamente à rotina e, com o tempo, você começa a ver o vínculo crescendo ainda mais. Você sabe que fez a escolha certa, ao dar a ele um lugar especial para chamar de seu..",
                     "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
                     "Sentiu um pouco de medo de quais dados pessoais seus a IA poderia utilizar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
                 ],
