@@ -1,19 +1,20 @@
 export const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
-        alternativas: [
+        enunciado: "Ao chegar no evento, você se deparou com dois animais adoráveis. Um cachorrinho com pelagem dourada, os olhos brilhando de curiosidade, e um gatinho branco, com o pelo macio como algodão e um olhar misterioso. Ambos estavam olhando para você, esperando ansiosos por um dono. Qual você escolhe?",
             {
-                texto: "Isso é assustador!",
+                texto: "Adotar o cachorro",
                 afirmacao: [
-                    "No início ficou com medo do que essa tecnologia pode fazer.",
+                    "Você se aproxima do cachorrinho dourado. Ele abana a cauda e corre em sua direção, dando saltinhos de felicidade. Ele parece ser ativo e cheio de energia, e você sente um vínculo imediato com ele.
+                    O responsável pela adoção fala sobre a personalidade do cachorrinho..",
                     "Achou assustador pensar na velocidade na qual a tecnologia está avançando."
                 ],
                 proxima: 1,
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Adotar o gatinho",
                 afirmacao: [
-                    "Quis saber como usar IA no seu dia a dia.",
+                    "Você se aproxima do gatinho branco. Ele observa você com seus grandes olhos verdes, e apesar de seu comportamento tranquilo, você sente que ele está avaliando cuidadosamente sua presença.
+                    O responsável pela adoção começa a falar sobre ele..",
                     "Pensou que IA pode ajudar em tarefas da sua vida."
                 ],
                 proxima: 2,
